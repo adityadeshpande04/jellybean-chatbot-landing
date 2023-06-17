@@ -1,44 +1,16 @@
-import React, { useRef, useState } from "react";
-// Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
-import { useSwiper } from "swiper/react";
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/navigation";
-import { Navigation, Pagination } from "swiper";
+import Swip from "../components/swip";
+import ImageCard from "../components/image-card";
 export default function Demo() {
-  const swiperRef = useRef();
-
   return (
-    <div className="my-bg text-white  h-screen flex flex-col justify-center items-center">
-      <div className="flex flex-col gap-4">
+    <div className="my-bg text-black flex flex-col h-screen p-8 md:p-16">
+      <div className="flex flex-col gap-2 md:px-24 mb-6 md:mb-8">
         <h1 className="text-5xl font-extrabold text-white">Experiences</h1>
-        <p className="text-2xl">
+        <p className="text-xl text-white">
           Our experiences create opportunities for teams to work together and
           share ideas leading increased innovation and productivity.
         </p>
       </div>
-      <button onClick={() => swiperRef.current.slideNext()}>
-        Go to Next Slide
-      </button>
-      <Swiper
-        navigation={true}
-        onSwiper={(swiper) => {
-          swiperRef.current = swiper;
-        }}
-        modules={[Navigation]}
-        className="mySwiper text-black"
-      >
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
-      </Swiper>
+      <Swip />
     </div>
   );
 }
