@@ -12,7 +12,7 @@ export default function Navbar()
                  height={120}
                  
                 />
-                <a href="#" className=" hover:text-violet-700 font-extrabold text-lg px-12">About Us</a>
+                <a href="/about" className=" hover:text-violet-700 font-extrabold text-lg px-12">About Us</a>
             </div>
            </nav>
     );
