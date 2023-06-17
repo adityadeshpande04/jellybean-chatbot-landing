@@ -84,17 +84,14 @@
   }
 }
 
-
-.myclass
-{
+.myclass {
   background-color: #010314;
 }
 
-.myclass2
-{
+.myclass2 {
   background-color: #010314;
 }
-=======
+
 * {
   margin: 0;
   padding: 0;
@@ -137,5 +134,4 @@ body {
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-
-
+}
