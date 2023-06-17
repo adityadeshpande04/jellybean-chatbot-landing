@@ -1,13 +1,14 @@
 import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
-import Navbar from "@/components/Navbar"
-import LandingPage from "@/components/LandingPage"
+import Navbar from "@/components/Navbar";
+import LandingPage from "@/components/LandingPage";
+import Experiences from "@/components/experiences";
 export default function Home() {
   return (
-
-    <div className="myclass">
-    <Navbar />
-    <LandingPage />
+    <div className="flex flex-col h-full my-bg">
+      <Navbar />
+      <LandingPage />
+      <Experiences />
     </div>
   );
 }
