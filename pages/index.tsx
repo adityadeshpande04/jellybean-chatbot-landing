@@ -6,8 +6,10 @@ import Experiences from "@/components/experiences";
 export default function Home() {
   return (
     <div className="flex flex-col h-full my-bg">
-      <Navbar />
-      <LandingPage />
+      <div className="flex flex-col justify-center items-center">
+        <Navbar />
+        <LandingPage />
+      </div>
       <Experiences />
     </div>
   );
