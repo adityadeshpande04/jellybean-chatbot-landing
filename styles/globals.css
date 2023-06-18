@@ -73,7 +73,9 @@
     --radius: 0.5rem;
   }
 }
-
+.my-border {
+  border: 2px solid yellow;
+}
 @layer base {
   * {
     @apply border-border;
