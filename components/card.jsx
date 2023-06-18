@@ -7,8 +7,10 @@ export default function Card({ title, body, imgSrc }) {
         <div className="img-wrapper roundex-xl overflow-hidden">
           <Image src={imgSrc} />
         </div>
-        <h3 className="text-2xl font-bold mt-5 text-white">{title}</h3>
-        <p className="mt-2 text-lg text-white">{body}</p>
+        <h3 className="text-xl md:text-2xl font-bold mt-5 text-white">
+          {title}
+        </h3>
+        <p className="mt-2 text-base md:text-lg text-white">{body}</p>
       </div>
     </div>
   );

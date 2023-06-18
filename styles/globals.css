@@ -98,7 +98,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: var(--calSans-font);
+
   /* border: 1px solid red; */
+}
+p {
+  font-family: var(--satoshiRegular-font);
 }
 .my-bg {
   background-color: #010314;

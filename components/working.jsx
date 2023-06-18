@@ -30,8 +30,10 @@ export default function Working() {
   });
   return (
     <div className="flex flex-col justify-center items-center px-8 md:px-16 mb-32 md:mb-56">
-      <h1 className="text-5xl font-extrabold text-white">How it Works</h1>
-      <p className="text-lg text-white md:px-24 mt-4 md:mt-8">
+      <h1 className=" text-4xl md:text-5xl font-extrabold text-white">
+        How it Works
+      </h1>
+      <p className="text-lg md:text-xl text-white md:px-24 mt-4 md:mt-8">
         Employers don't have to deal with unnecessary queries, no need to be in
         contact with multiple vendors and set deals. With zero employer hassle &
         set and forget experience, get things done more quicker.

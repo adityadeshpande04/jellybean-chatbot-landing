@@ -1,6 +1,6 @@
 export default function ImageCard() {
   return (
-    <section className="font-sans leading-normal flex text-white w-full justify-center">
+    <section className=" leading-normal flex text-white w-full justify-center">
       <div className="max-w-lg shadow-lg rounded overflow-hidden m-4 sm:flex">
         <div className="h-48 sm:h-auto sm:w-48 md:w-64 flex-none bg-cover bg-center rounded rounded-t sm:rounded sm:rounded-l text-center overflow-hidden bg-[url('https://unsplash.it/804/800')]"></div>
 
