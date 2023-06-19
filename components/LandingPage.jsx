@@ -2,7 +2,7 @@ export default function LandingPage() {
   return (
     <section className="relative h-screen text-white">
       <div className=" container flex flex-col gap-12 justify-center items-center  md:pt-20">
-        <p className=" text-center font-black text-5xl pt-20 md:pt-40 z-10 font-sans">
+        <p className=" text-center font-black text-5xl pt-20 md:pt-20 z-10 font-sans">
           Discover and Book Curated <br></br>Team Experiences on Whatsapp
         </p>
         <p className=" text-center font-bold text-2xl z-0">
