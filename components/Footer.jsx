@@ -10,18 +10,13 @@ export default function Footer() {
                         alt="logo"
                         width={100}
                         height={100}/>
-                    <p className=" text-lg font-bold">JellyBeans</p>
+                    <p className=" text-lg font-bold ">JellyBeans</p>
                 </div>
-                <div className=" flex flex-col">
-                    <p>Address</p>
-                    <p>Contact no.</p>
-                    <p>Email</p>
+                <div className=" flex flex-col pt-2">
+                    <p>Address: Bangalore</p>
+                    <p>Contact no: 9603103330</p>
+                    <p>Email: </p>
                 </div>
-                <div className=" flex flex-col">
-                    <p>About the Company</p>
-                    <p>Lorem ipsum</p>
-                </div>
-
             </div>
         </section>
     );

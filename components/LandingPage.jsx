@@ -1,3 +1,5 @@
+import Image from "next/image";
+import Whatsapplogo from "/public/whatsapp.png";
 export default function LandingPage() {
   return (
     <section className="relative h-screen text-white">
@@ -5,7 +7,7 @@ export default function LandingPage() {
 
         
 
-        <p className=" text-center font-black text-5xl md:text-6xl pt-20 md:pt-40 z-10 ">
+        <p className=" text-center font-black text-5xl md:text-6xl pt-20 md:pt-20 z-10 ">
 
           Discover and Book Curated <br></br>Team Experiences on Whatsapp
         </p>
@@ -13,7 +15,14 @@ export default function LandingPage() {
           Explore Unique Experiences:<br></br> Discover a variety of exciting
           activities for your team.
         </p>
-        <button className=" text-center rounded-full hover:bg-white hover:text-black w-40 bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-700 justify-center text-lg font-bold">
+        <button className=" flex text-center rounded-full hover:bg-white hover:text-black w-44 bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-700 justify-center text-sm items-center font-bold">
+        <Image
+          className="pt-1 pb-1 pr-2"
+          src={Whatsapplogo}
+          alt="logo"
+          width={45}
+          height={45}
+        />
           Chat With Us
         </button>
       </div>
